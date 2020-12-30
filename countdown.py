@@ -26,4 +26,4 @@ while ans != "y" :
         print("Wrong input, try again.")
 
 # this is a comment
-# TODO: Fix this piece of codess
+# TODO: Fix this piece of code
