@@ -1,5 +1,5 @@
 
-def paycalc(hrs, rph) :
+def computepay(hrs, rph) :
     if hrs < 40 :
         gpay = (fw * 40 * rph)
     gpay = (fw * 40 * rph) + (overtime * rph * 1.5)
@@ -12,7 +12,7 @@ h = float(hrs)
 fw = hrs // 40
 overtime  = hrs % 40
 
-paycalc(hrs,rph)
-print(paycalc(hrs,rph))
+computepay(hrs,rph)
+print(computepay(hrs,rph))
 
 
