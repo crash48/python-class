@@ -13,6 +13,7 @@ fw = hrs // 40
 overtime  = hrs % 40
 
 computepay(hrs,rph)
-print(computepay(hrs,rph))
+print("Pay", computepay(hrs,rph))
+
 
 
